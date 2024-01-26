@@ -1,3 +1,4 @@
+#This is mini project in python
 import mysql.connector
 from tkinter import *
 from tkinter import messagebox
