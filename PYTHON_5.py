@@ -2,7 +2,7 @@ import mysql.connector
 from tkinter import *
 from tkinter import messagebox
 
-
+#below are the data base details
 db = mysql.connector.connect(
   host="localhost",
   user="root",
@@ -133,3 +133,4 @@ select_button = Button(window, text="SELECT", command=select,font=font,bd=4).pla
 
 window.mainloop()
 
+#added some comments this is optional
